@@ -1,2 +1,10 @@
 notes/
 .DS_Store
+/vendor/
+wp/
+content/themes/twentyseventeen
+content/languages
+
+content/uploads
+content/debug.log
+wp-config.php
