@@ -1,0 +1,24 @@
+$color-brand: #6FB4FD;
+$color-brand-alt: #8170FC;
+$color-contrast: #242943;
+$color-contrast-light: lighten($color-contrast,3);
+$color-active: #9BF1FF;
+$color-text: white;
+$color-bg-base: #EAEAEA;
+$color-gradient-dark: black;
+
+$breakpoint-medium: 720px;
+$breakpoint-large: 950px;
+
+$duration-slow: 0.8s;
+$duration-normal: 0.5s;
+$duration-fast: 0.3s;
+
+$tile-bg-colors: (
+  1: #6FC3DF,
+  2: #8D82C4,
+  3: #EC8D81,
+  4: #E7B788,
+  5: #8EA9E8,
+  6: #87C5A4,
+);
