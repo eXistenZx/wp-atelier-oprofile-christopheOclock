@@ -1,16 +1,17 @@
 .banner{
+    min-height: 80vh; 
     padding: 9em 1em 2em 1em;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 5;
-    // @media (min-width: $breakpoint-medium) {
-    //     padding-left: 20%;
-    // }
-    // @media (min-width: $breakpoint-large) {
-    //     padding-left: 50%;
-    // }
+    @media (min-width: $breakpoint-medium) {
+        padding-right: 20%;
+    }
+    @media (min-width: $breakpoint-large) {
+        padding-right: 50%;
+    }
     &::before {
         content: '';
         position: absolute;

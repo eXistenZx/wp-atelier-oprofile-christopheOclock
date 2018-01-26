@@ -1,0 +1,21 @@
+.tiles {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .tile {
+        width: 100%;
+
+        @media (min-width: $breakpoint-medium) {
+            width: 50%;
+        }
+
+        @media (min-width: $breakpoint-large) {
+            width: 40%;
+            &:nth-child(4n-1),
+            &:nth-child(4n-2) {
+                width: 60%;
+            }
+        }
+    }
+}
