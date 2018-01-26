@@ -1,0 +1,25 @@
+.banner{
+    padding: 9em 1em 2em 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 5;
+    // @media (min-width: $breakpoint-medium) {
+    //     padding-left: 20%;
+    // }
+    // @media (min-width: $breakpoint-large) {
+    //     padding-left: 50%;
+    // }
+    &::before {
+        content: '';
+        position: absolute;
+        top:0; left:0; right:0; bottom: 0;
+        background-image: linear-gradient(
+          90deg,
+          $color-gradient-dark,
+          transparentize($color-gradient-dark, 1)
+        );
+        z-index: -1;
+    }
+}
